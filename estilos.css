@@ -1059,3 +1059,34 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #84d5deaa;
 }
+
+@media (max-width: 768px) {
+    .contenedor-principal header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .contenedor-principal header .logo a {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .contenedor-principal header ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contenedor-principal header ul li {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
